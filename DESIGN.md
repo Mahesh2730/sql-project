@@ -1,19 +1,10 @@
 # Design Document
 
-By MAHESH VARDHAN
+By MAHESH VARDHAN PENUMALA
 
-Video overview: <URL HERE>
-
-
-# Design Document
-
-By [Your Name Here]
-
-Video overview: [URL HERE]
+Video overview:
 
 ## Scope
-
-In this section you should answer the following questions:
 
 * What is the purpose of your database?
 
@@ -42,8 +33,6 @@ Outside the scope of the database are:
 
 ## Functional Requirements
 
-In this section you should answer the following questions:
-
 * What should a user be able to do with your database?
 
 Users of the database should be able to:
@@ -66,8 +55,6 @@ The database will not support:
 ## Representation
 
 ### Entities
-
-In this section you should answer the following questions:
 
 * Which entities will you choose to represent in your database?
 * What attributes will those entities have?
@@ -109,9 +96,6 @@ The types were chosen based on the nature of the data to be stored, ensuring tha
 
 ### Relationships
 
-In this section you should include your entity relationship diagram and describe the relationships between the entities in your database.
-
-
 The following entity relationship diagram describes the relationships between the entities in the database:
 
 ![ER Diagram](diagram.png)
@@ -121,8 +105,6 @@ The following entity relationship diagram describes the relationships between th
 - *Order Items* belong to one *Order* and contain one *Product, but an **Order* can contain many *Order Items* and a *Product* can be part of many *Order Items*.
 
 ## Optimizations
-
-In this section you should answer the following questions:
 
 * Which optimizations (e.g., indexes, views) did you create? Why?
 
@@ -135,8 +117,6 @@ To optimize the performance of common queries, the following indexes were create
 These optimizations ensure efficient data retrieval, especially for frequent queries.
 
 ## Limitations
-
-In this section you should answer the following questions:
 
 * What are the limitations of your design?
 * What might your database not be able to represent very well?
